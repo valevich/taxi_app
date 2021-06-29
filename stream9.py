@@ -28,7 +28,7 @@ st.markdown(
 
 @st.cache
 def get_data():
-	taxi_data = pd.read_csv('python/data/taxidata.csv')
+	taxi_data = pd.read_csv('data/taxidata.csv')
 	return taxi_data
 
 
